@@ -104,6 +104,10 @@ student_tups_list=list(student_tups)
 ## [PROBLEM 5]
 print("\n\n***** Problem 5 *****")
 # Use a list comprehension to create a list of Student instances out of the student_tups list you just created in Problem 2, and save that list in a variable called programmers. You should make sure you pass these tests before continuing, as you'll need this list for problems later on!
+programmers= [Student(x,y,z) for x,y,z in student_tups_list]
+
+
+
 
 
 
